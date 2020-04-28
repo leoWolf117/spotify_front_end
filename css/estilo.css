@@ -157,6 +157,62 @@ nav.navbar-transparente{
 }
 
 
+/******************************RODAPE*********************************************/
+
+
+footer{
+    background: #000;
+    padding: 50px 0px 20px 0;
+    position: relative;
+}
+
+footer h4{
+
+    color: #949196;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    
+}
+
+.rd{
+    color: #949196;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    
+}
+
+footer .navbar-nav a{
+
+    color: white;
+    font-size: 0.8em;
+
+}
+
+footer .navbar-nav a:hover{
+
+    color: #9bf0e1;
+    text-decoration: none;
+
+}
+
+footer ul{
+
+    list-style: none;
+
+}
+
+footer ul li{
+
+    float: left;    
+    margin: 0 5px;
+}
+
+.logo{
+    margin-bottom: 25px;
+    margin-left: -15px;
+}
+
+
 /**************************MEDIA QUERE**************************************/
 
 /* Extra small devices (portrait phones, less than 576px)*/
@@ -173,7 +229,6 @@ nav.navbar-transparente{
         margin: 14px 16px;
     }
     
-    
 }
 
 /* Medium devices (tablets, 768px and up)*/
@@ -186,6 +241,7 @@ nav.navbar-transparente{
     .btn-custon{
         margin: 14px 16px;
     }
+    
     
     
 }
@@ -202,6 +258,7 @@ nav.navbar-transparente{
     }
     
     
+
 }
 
 /*Extra large devices (large desktops, 1200px and up)*/
